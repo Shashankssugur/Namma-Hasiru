@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string name="add_plant_title">Add Plant</string>
+    <string name="app_name">Namma-Hasiru</string>
+    <string name="guide_title">Species Guide</string>
+    <string name="home_title">Home</string>
+    <string name="notif_channel_desc">Reminders to update plant status after 90 days.</string>
+    <string name="notif_channel_name">Plant Reminders</string>
+    <string name="plants_title">Plants</string>
+    <style name="Theme.NammaHasiru" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">true</item>
+    </style>
+</resources>

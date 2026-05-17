@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Namma-Hasiru</string>
+
+    <string name="home_title">Home</string>
+    <string name="add_plant_title">Add Plant</string>
+    <string name="plants_title">Plants</string>
+    <string name="guide_title">Species Guide</string>
+
+    <string name="notif_channel_name">Plant Reminders</string>
+    <string name="notif_channel_desc">Reminders to update plant status after 90 days.</string>
+</resources>
+
