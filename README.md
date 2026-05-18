@@ -1,29 +1,34 @@
-# Namma-Hasiru (Natural Resources)
+🌱 Namma Hasiru
+Namma Hasiru is a beginner-friendly Android app built with Kotlin and Jetpack Compose to promote and track tree plantation efforts. The app empowers individuals and communities to record, monitor, and sustain their green initiatives.
 
-Beginner-friendly Android app (Kotlin + Jetpack Compose) to track tree plantation efforts:
+✨ Features
+📸 Add a Plant: Capture a photo and save its GPS location.
 
-- Add a plant with **photo + GPS location**
-- Store data locally using **Room**
-- View **home summary**, **survival score**, and **recent activity**
-- Update plant status: **Survived / Dead** (+ growth photo)
-- “Tree Map”: list of plants with **Open in Google Maps**
-- **WorkManager** reminder after ~90 days: “Time to update your plant growth status!”
-- Species Guide: basic suggestions based on soil type
+🗂️ Local Storage: Data stored securely using Room database.
 
-## Open & Run
+📊 Dashboard: View survival score, activity history, and summary.
 
-1. Open this folder in **Android Studio**.
-2. Let Gradle sync finish.
-3. Run on a device/emulator (Android 7.0+).
+🌍 Tree Map: Navigate to plant locations via Google Maps.
 
-## Permissions used
+🔔 Smart Reminders: Get notified after ~90 days to update plant growth status.
 
-- Location: `ACCESS_FINE_LOCATION`, `ACCESS_COARSE_LOCATION`
-- Camera: `CAMERA`
-- Notifications (Android 13+): `POST_NOTIFICATIONS`
+🌱 Species Guide: Basic suggestions tailored to soil type.
 
-## Notes
+📷 Growth Tracking: Update plant status (Survived/Dead) with new photos.
 
-- Photos are stored as `content://` URIs (camera uses an app cache `FileProvider` URI).
-- The reminder worker runs once per day and checks if any plant is **>= 90 days old** and still **Pending**.
+⚙️ Tech Stack
+Language: Kotlin
+
+UI: Jetpack Compose
+
+Database: Room
+
+Background Tasks: WorkManager
+
+📱 Permissions
+Location (GPS)
+
+Camera
+
+Notifications (Android 13+)
 
